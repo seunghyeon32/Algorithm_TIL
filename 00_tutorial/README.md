@@ -243,7 +243,7 @@
 
 - `git log --oneline` : commit + 고유번호 7개 확인가능
 
-
+- `git config --global core.autocrlf true` : Mac이랑 안드로이드 중에 어떤걸 쓸거니 ? 둘다 !
 
 ---
 
