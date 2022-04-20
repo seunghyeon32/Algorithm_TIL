@@ -1,7 +1,9 @@
 # 2573_빙산
 # 2022-04-13
+# 시간 초과
 
 
+# bfs
 def bfs(si, sj):
     global year
     melting = [[0] * M for _ in range(N)]
@@ -46,8 +48,8 @@ def Melt(melt):
 
 
 N, M = map(int, input().split())  # N: 행, M: 열
-arr = [list(map(int, input().split())) for _ in range(N)]
-ices = [[0] * M for _ in range(N)]
+arr = [list(map(int, input().split())) for _ in range(N)]   # 빙산의 정보
+ices = [[0] * M for _ in range(N)]   # 빙산이 있는 위치
 result = 0
 year = 0
 
